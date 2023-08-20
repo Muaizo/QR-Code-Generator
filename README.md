@@ -3,20 +3,14 @@ This is a simple Node.js application that generates QR codes on the fly using th
 
 **Installation**
 Clone the repository or download the source code:
-
-Copy code
 git clone https://github.com/Muaizo/QR-Code-Generator
 Navigate to the project directory:
 
 _Install the required dependencies_:
 
-Copy code
 npm install
-Usage
 Run the server:
 
-bash
-Copy code
 node index.js
 The server will start and listen on port 3000 by default.
 
@@ -32,7 +26,8 @@ You can modify the default text and QR code options in the index.js file:
 
 Change the text variable to set the default text that will be encoded into QR codes when no query parameter is provided.
 Adjust the options in the opts object to customize the appearance and quality of the generated QR codes.
-Dependencies
+
+**Dependencies**
 Express: A fast, unopinionated, minimalist web framework for Node.js.
 qrcode: A library to generate QR codes in various formats
 
