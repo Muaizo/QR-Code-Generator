@@ -28,8 +28,8 @@ Change the text variable to set the default text that will be encoded into QR co
 Adjust the options in the opts object to customize the appearance and quality of the generated QR codes.
 
 **Dependencies**
-Express: A fast, unopinionated, minimalist web framework for Node.js.
-qrcode: A library to generate QR codes in various formats
+**Express**: A fast, unopinionated, minimalist web framework for Node.js.
+**qrcode**: A library to generate QR codes in various formats
 
 **License**
 This project is licensed under the MIT License.
