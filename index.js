@@ -3,7 +3,7 @@
 const express = require("express");
 const QRCode = require("qrcode");
 const app = express();
-const port = 3000;
+const port = 3007;
 
 app.get("/qrcode", (req, res) => {
   const text = req.query.text || "Muaizo"; // Default text or use query parameter
